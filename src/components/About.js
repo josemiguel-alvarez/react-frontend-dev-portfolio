@@ -18,7 +18,7 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 className="section-title fs-1 my-5">{sectionName}</h1>
+          <h1 className="section-title fs-1 py-5">{sectionName}</h1>
           <div className="row center mx-auto">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
@@ -74,7 +74,6 @@ class About extends Component {
                       lineHeight: "200%",
                     }}
                   >
-                    <br />
                     <span className="wave">{hello}!</span>
                     <br />
                     <br />
