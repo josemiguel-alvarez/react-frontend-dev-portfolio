@@ -1,19 +1,19 @@
 {
   "basic_info": {
-    "description_header": "👋 Hi",
-    "description": "I'm José Miguel Álvarez Vañó. I'm a results-driven Senior Software Engineer with 6+ years of experience in delivering high-quality, performant software solutions that align with business objectives. Skilled in full stack development, I specialize in crafting cutting-edge web applications, leveraging the latest technologies and methodologies to stay ahead of industry trends.<br><br>Throughout my career, I've successfully collaborated on international projects, honing my ability to communicate effectively and adapt to diverse cultures. My experience with remote teams has refined my efficiency, ensuring seamless integration and collaboration in fast-paced environments.",
+    "description_header": "👋 Hola",
+    "description": "Mi nombre es José Miguel Álvarez Vañó. Soy un Ingeniero de Software Senior orientado a resultados con más de 6 años de experiencia en implementando soluciones software de alta calidad y alto rendimiento que se alinean con los objetivos de comerciales de mis clientes. Con habilidades en desarrollo full stack, me especializo en la creación de aplicaciones web de vanguardia, aprovechando las últimas tecnologías y metodologías para mantenerme al tanto de las tendencias de la industria.<br><br>A lo largo de mi carrera, he colaborado con éxito en proyectos internacionales, mejorando mi habilidad para comunicarme de manera efectiva y adaptarme a culturas diversas. Mi experiencia con equipos remotos ha aumentado mi eficiencia, asegurando una integración y colaboración fluida en entornos ágiles.",
     "section_name": {
-      "about": "About me",
-      "projects": "Projects",
-      "skills": "Skills",
-      "experience": "Experience"
+      "about": "Sobre mí",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "experience": "Experiencia"
     }
   },
   "projects": [
     {
       "title": "Shopify Checkout",
       "startDate": "2022",
-      "description": "I have been instrumental in enhancing the web application's performance and user experience. My key accomplishment in this role includes proposing and implementing a novel frontend bootstrap architecture, which significantly improved the efficiency of Shopify Checkout.",
+      "description": "He jugado un papel clave en la mejora del rendimiento y la experiencia del usuario de Shopify Checkout. Mi mayor logro incluye proponer e implementar una nueva arquitectura de la carga inicial de la aplicación web que mejoró significativamente su rendimiento.",
       "images": [
         "images/portfolio/shopify-checkout/p3.jpeg",
         "images/portfolio/shopify-checkout/p1.png",
@@ -46,7 +46,7 @@
     {
       "title": "Shopify Inbox",
       "startDate": "2021",
-      "description": "Shopify Inbox is a 1st-party messaging application for ecommerce stores. One of my key achievements was leading the development of an innovative feature to boost the usage of the product sharing function. This resulted in a marked increase in the conversion rate, highlighting my ability to create impactful solutions that drive business growth. ",
+      "description": "Shopify Inbox es la aplicación de mensajería de Shopify para sus tiendas. Uno de mis logros fue liderar el desarrollo de una característica innovadora para impulsar el uso de la función de compartir productos dentro de los chats. Esto resultó en un considerable aumento en la tasa de conversión, resaltando mi capacidad para crear soluciones que impulsan el crecimiento del negocio.",
       "images": [
         "images/portfolio/shopify-inbox/p3.webp",
         "images/portfolio/shopify-inbox/p1.webp",
@@ -80,15 +80,39 @@
   "experience": [
     {
       "company": "Shopify",
-      "title": "Senior Software Engineer",
-      "years": "08.2021 - present",
-      "technologies": ["React", "TypeScript", "Ruby on Rails"]
+      "title": "Ingeniero Software Senior",
+      "years": "08/2021 - present",
+      "technologies": ["React", "TypeScript", "Ruby on Rails", "Jest"]
     },
     {
-      "company": "Shopify",
-      "title": "Senior Software Engineer",
-      "years": "08.2021 - present",
-      "technologies": ["React", "TypeScript", "Ruby on Rails"]
+      "company": "mimacom",
+      "title": "Ingeniero Software Frontend",
+      "years": "07/2020 - 08/2021",
+      "technologies": ["React", "Flow", "Redux", "Jest"]
+    },
+    {
+      "company": "GFT",
+      "title": "Ingeniero Software Frontend",
+      "years": "10/2019 - 07/2020",
+      "technologies": ["React", "Angular", "Nest"]
+    },
+    {
+      "company": "edicom",
+      "title": "Consultor EDI Senior",
+      "years": "03/2019 - 07/2020",
+      "technologies": ["Angular"]
+    },
+    {
+      "company": "ti&m",
+      "title": "Ingeniero Software",
+      "years": "06/2017 - 02/2019",
+      "technologies": ["Angular", "React", "Java", "Srping"]
+    },
+    {
+      "company": "MyEnergyMap",
+      "title": "Desarrollador web (prácticas)",
+      "years": "04/2016 - 12/2016",
+      "technologies": ["JavaScript", "PHP"]
     }
   ]
 }
