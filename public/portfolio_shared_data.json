@@ -1,12 +1,21 @@
 {
   "basic_info": {
     "name": "José Miguel Álvarez Vañó",
-    "titles": ["Software Engineer", "Full-Stack Developer"],
+    "titles": [
+      "Software Engineer",
+      "Full-Stack Developer",
+      "Web Development Expert"
+    ],
     "social": [
       {
         "name": "github",
         "url": "https://github.com/josemiguel-alvarez",
         "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/jmalvarezvano/",
+        "class": "fab fa-linkedin"
       }
     ],
     "image": "myProfile.webp"

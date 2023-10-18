@@ -122,6 +122,7 @@ h1 {
 .foto img {
   display: block;
   width: 100%;
+  object-fit: cover;
 }
 
 .foto div {
@@ -139,6 +140,7 @@ h1 {
   transition: all 0.2s linear;
   z-index: 0;
   position: relative;
+  width: 70%;
 }
 
 .foto div:after {
@@ -259,8 +261,9 @@ h1 {
   }
 }
 
-.modal-inside .modal-content {
+.modal-content {
   background: white;
+  padding: 10px;
 }
 
 .bars {
@@ -321,7 +324,6 @@ h1 {
   text-align: justify;
   padding: 5px 5px 0 5px;
   margin-bottom: 20px;
-  font-size: 12px;
 }
 
 .awssld__next {
@@ -330,6 +332,23 @@ h1 {
 
 .awssld__prev {
   outline: none !important;
+}
+
+.awssld__content > img {
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1170px) {
+  .modal-dialog {
+    max-width: max-content;
+    margin: 15px;
+  }
+}
+@media only screen and (min-width: 1171px) {
+  .modal-dialog {
+    max-width: 70%;
+    margin: auto;
+  }
 }
 
 .loader-bar-color {
@@ -423,5 +442,5 @@ footer a:focus {
 
 .social-links {
   margin-top: 50px;
-  font-size: 22px;
+  font-size: 40px;
 }

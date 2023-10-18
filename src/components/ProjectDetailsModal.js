@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
-import AwesomeSliderStyles from "../scss/light-slider.scss";
-import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import { Modal } from "react-bootstrap";
+import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
+import AwesomeSliderStyles from "../scss/light-slider.scss";
+
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -19,9 +20,7 @@ class ProjectDetailsModal extends Component {
               <span>
                 <div className="text-center">
                   <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
-                      {icons.name}
-                    </p>
+                    <p className="text-center fs-4">{icons.name}</p>
                   </i>
                 </div>
               </span>
@@ -30,7 +29,9 @@ class ProjectDetailsModal extends Component {
         });
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
+            return (
+              <div key={i} data-src={elem} style={{ objectFit: "cover" }} />
+            );
           });
         }
       }
@@ -38,10 +39,9 @@ class ProjectDetailsModal extends Component {
     return (
       <Modal
         {...this.props}
-        size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
-        className="modal-inside"
+        animation
       >
         <span onClick={this.props.onHide} className="modal-close">
           <i className="fas fa-times fa-3x close-icon"></i>
@@ -77,7 +77,10 @@ class ProjectDetailsModal extends Component {
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
+            <h3
+              className="d-flex align-items-center fs-2"
+              style={{ padding: "5px 5px 0 5px" }}
+            >
               {title}
               {url ? (
                 <a
@@ -93,7 +96,7 @@ class ProjectDetailsModal extends Component {
                 </a>
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
+            <p className="modal-description fs-3">{description}</p>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>

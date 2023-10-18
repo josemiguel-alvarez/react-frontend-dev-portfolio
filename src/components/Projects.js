@@ -58,7 +58,7 @@ class Projects extends Component {
             {sectionName}
           </h1>
           <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
+            <div className="row mx-auto justify-content-center">{projects}</div>
           </div>
           <ProjectDetailsModal
             show={this.state.detailsModalShow}
