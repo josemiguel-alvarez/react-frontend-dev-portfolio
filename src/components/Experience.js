@@ -15,31 +15,37 @@ class Experience extends Component {
 
         var tech = technologies.map((technology, i) => {
           return (
-            <Badge pill className="experience-badge mr-2 mb-2" key={i}>
+            <Badge
+              pill
+              className="experience-badge me-4 mb-2 fs-4 fw-light"
+              key={i}
+            >
               {technology}
             </Badge>
           );
         });
+
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={work.years}
+            dateClassName="fs-4"
             iconStyle={{
               background: "#AE944F",
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-react experience-icon"></i>}
+            icon={<i className="fas fa-briefcase experience-icon"></i>}
             key={i}
           >
             <h3
-              className="vertical-timeline-element-title"
+              className="vertical-timeline-element-title fs-2"
               style={{ textAlign: "left" }}
             >
               {work.title}
             </h3>
             <h4
-              className="vertical-timeline-element-subtitle"
+              className="vertical-timeline-element-subtitle fs-3"
               style={{ textAlign: "left" }}
             >
               {work.company}
@@ -51,13 +57,11 @@ class Experience extends Component {
     }
 
     return (
-      <section id="resume" className="pb-5">
+      <section id="resume">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
-            <h1 className="section-title" style={{ color: "black" }}>
-              <span className="text-black" style={{ textAlign: "center" }}>
-                {sectionName}
-              </span>
+            <h1 className="section-title text-black fs-1 py-5 center">
+              {sectionName}
             </h1>
           </div>
         </div>
