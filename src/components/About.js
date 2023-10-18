@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
+import { Icon } from "@iconify/react";
+import React, { Component } from "react";
 
 class About extends Component {
   render() {
@@ -80,7 +80,7 @@ class About extends Component {
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />
-                    {about}
+                    <span dangerouslySetInnerHTML={{ __html: about }} />
                   </div>
                 </div>
               </div>

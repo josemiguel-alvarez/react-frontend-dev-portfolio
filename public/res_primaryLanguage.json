@@ -1,118 +1,94 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "👋 Hi",
+    "description": "I'm José Miguel Álvarez Vañó. I'm a results-driven Senior Software Engineer with 6+ years of experience in delivering high-quality, performant software solutions that align with business objectives. Skilled in full stack development, I specialize in crafting cutting-edge web applications, leveraging the latest technologies and methodologies to stay ahead of industry trends.<br><br>Throughout my career, I've successfully collaborated on international projects, honing my ability to communicate effectively and adapt to diverse cultures. My experience with remote teams has refined my efficiency, ensuring seamless integration and collaboration in fast-paced environments.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Shopify Checkout",
+      "startDate": "2022",
+      "description": "I have been instrumental in enhancing the web application's performance and user experience. My key accomplishment in this role includes proposing and implementing a novel frontend bootstrap architecture, which significantly improved the efficiency of Shopify Checkout.",
+      "images": [
+        "images/portfolio/shopify-checkout/p3.jpeg",
+        "images/portfolio/shopify-checkout/p1.png",
+        "images/portfolio/shopify-checkout/p2.png"
+      ],
+      "url": "https://www.shopify.com/checkout",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-ruby-plain",
+          "name": "Ruby"
+        },
+        {
+          "class": "devicon-rails-plain",
+          "name": "Rails"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Shopify Inbox",
+      "startDate": "2021",
+      "description": "Shopify Inbox is a 1st-party messaging application for ecommerce stores. One of my key achievements was leading the development of an innovative feature to boost the usage of the product sharing function. This resulted in a marked increase in the conversion rate, highlighting my ability to create impactful solutions that drive business growth. ",
+      "images": [
+        "images/portfolio/shopify-inbox/p3.webp",
+        "images/portfolio/shopify-inbox/p1.webp",
+        "images/portfolio/shopify-inbox/p2.webp"
+      ],
+      "url": "https://www.shopify.com/inbox",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-ruby-plain",
+          "name": "Ruby"
+        },
+        {
+          "class": "devicon-rails-plain",
+          "name": "Rails"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Shopify",
+      "title": "Senior Software Engineer",
+      "years": "08.2021 - present",
+      "technologies": ["React", "TypeScript", "Ruby on Rails"]
+    },
+    {
+      "company": "Shopify",
+      "title": "Senior Software Engineer",
+      "years": "08.2021 - present",
+      "technologies": ["React", "TypeScript", "Ruby on Rails"]
+    }
+  ]
+}
